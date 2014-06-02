@@ -26,7 +26,7 @@ void test(int N){
 	if(N==0) return;
 	else{
 		scanf("%d",&num);
-		printf("%d\n", sum(num));
+		printf("The sum of the squares is: ""%d\n", sum(num));
 		test(--N);
 	}
 
